@@ -14,8 +14,12 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+  const maFonction =()=>{
+    console.log("je suis la")
+  
+  }
   return (
-    <html lang="en">
+    <html lang="fr">
       <body className={inter.className}>{children}</body>
     </html>
   )
