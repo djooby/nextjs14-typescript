@@ -1,5 +1,3 @@
-import { Header } from '@/components/header'
-import Image from 'next/image'
 import sleep from 'sleep-promise';
 
 export default async function Home() {
