@@ -1,4 +1,10 @@
+import { Metadata } from "next";
 import "../globals.css";
+
+export const metadata: Metadata = {
+  title: "Dashboard",
+  description: "The dashboard page",
+};
 
 export default function RootLayout(props: {
   children: React.ReactNode;
@@ -7,7 +13,7 @@ export default function RootLayout(props: {
 }) {
   return (
     <>
-      {props.children}
+      {/* {props.children} */}
       <div className="grid grid-cols-2">
         {props.team}
         {props.analytics}

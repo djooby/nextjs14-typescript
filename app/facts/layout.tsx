@@ -2,11 +2,11 @@ import { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: "Image page",
+  title: "Facts",
   description: "",
 };
 
-export default function ImageLayout({
+export default function FactsLayout({
   children,
 }: {
   children: React.ReactNode;
